@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fouth-comp.component.css']
 })
 export class FouthCompComponent implements OnInit {
-
-  constructor() { }
-
+  name1:string;
+  constructor() { 
+    this.name1="quarto"
+  }
+  
   ngOnInit(): void {
   }
 
